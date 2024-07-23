@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Euclid Galactic';
+    src: url('/fonts/EuclidGalactic-1G.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/MontserratRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Nothing You Could Do';
+    src: url('/fonts/NothingYouCouldDo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(21 21 21);
+}

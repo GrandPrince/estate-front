@@ -1,0 +1,39 @@
+.swiper-pagination-bullet {
+  width: 9px;
+  height: 9px;
+  background: #646464;
+}
+
+.swiper-pagination-bullet-active {
+  background: #20d795;
+  /* Active bullet color */
+}
+
+.Shss-slide-item {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.Shss-progress-bar {
+  display: none !important;
+}
+
+/* AutoScrollBtn.css */
+@keyframes artificial-bounce {
+  0%, 100% {
+      transform: translateY(20);
+  }
+  25% {
+      transform: translateY(0px);
+  }
+  30% {
+      transform: translateY(20);
+  }
+  75% {
+      transform: translateY(10px);
+  }
+}
+
+.animate-bounce {
+  animation: artificial-bounce 2s infinite;
+}
