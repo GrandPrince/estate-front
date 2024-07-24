@@ -36,7 +36,10 @@ const SpeechSlideWidget = () => {
                 {
                     quaoteArr.map((item, i) => {
                         return <div className='h-screen flex flex-col items-center justify-center mx-4' key={i}>
-                            <div className='font-[500] text-[34px] md:text-[60px] font-black tracking-[-2.26px] text-center bg-searchCaptionGradient text-transparent search-caption-text font-sans max-w-[900px]'>
+                            <pre className='hidden md:flex font-[500] text-[34px] max-w-iPhoneHead md:text-[60px] font-black tracking-[-2.26px] text-center bg-greenGradient text-transparent search-caption-text font-sans '>
+                                {item}
+                            </pre>
+                            <div className='md:hidden font-[500] text-[34px] max-w-iPhoneHead md:text-[60px] font-black tracking-[-2.26px] text-center bg-greenGradient text-transparent search-caption-text font-sans '>
                                 {item}
                             </div>
                             <p className='font-[400] text-[30.13px] md:text-[49.78px] text-[#e3e3e3] font-carousel'>oasix</p>

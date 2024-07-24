@@ -13,14 +13,25 @@ module.exports = {
         ShssItem: 'calc(100vw - 3rem)',
         'SearchItem': 'calc(100vw - 5rem)'
       },
+      maxWidth: {
+        iPhoneHead: 'calc(100vw - 4rem)',
+        // '8xl': '96rem',
+      },
+      boxShadow: {
+        "searchBoxInput":"inset 0 3.11px 3.11px rgba(61, 61, 61, 0.2)",
+        "searchBoxInput-MD":"inset 0 5.51px 5.51px rgba(61, 61, 61, 0.2)",
+        'searchBoxBtn': '0 1.37px 2.74px rgba(0, 0, 0, 0.1)',
+        'searchBoxBtn-MD': '0 2px 4px rgba(0, 0, 0, 0.1)',
+      },
       height: {
         'landingContentWidthHeight': 'calc(100vh - 2px)', // Adjust this value as needed
         'verticalTimeLine': 'calc(100vh - 200px)',
       },
       backgroundImage: {
         "landingBorderGradient": 'linear-gradient(to bottom right, rgba(255,255,255,0.4), rgba(255,255,255,0) 50%, rgba(255,255,255,0.1) 100%)',
-        "searchBtnGradient": 'linear-gradient(to bottom right, rgba(32, 215, 149, 1), rgba(12, 95, 85, 1) 110%)',
-        'searchCaptionGradient': 'linear-gradient(to bottom right, #9ae2c8, #20d795, #0c5f55 90%)',
+        "searchBtnGradient": 'linear-gradient(to bottom right,  rgba(255,255,255,1) 0%,rgba(32, 215, 149, 1) 15%, rgba(20, 87, 101, 1) 100%)',
+        'searchCaptionGradient': 'linear-gradient(to bottom right, rgba(255,255,255,1) 0%,rgba(32, 215, 149, 1) 30%, rgba(20, 87, 101, 1) 120%)',
+        'greenGradient': 'linear-gradient(to right, rgba(32, 215, 149, 1), rgba(20, 87, 101, 1) 90%)',
       },
       spacing: {
         'building': '8rem', // Example default value

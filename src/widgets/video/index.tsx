@@ -85,7 +85,8 @@ const VideoPlayer: React.FC = () => {
                 <source src={videoSrc} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-            {isMobileView ? <MobileTimeline currentTime={currentTime} duration={26.823264} /> : <PCTimeline currentTime={currentTime} duration={26.823264} />}
+            <PCTimeline currentTime={currentTime} duration={26.823264} />
+            {/* {isMobileView ? <MobileTimeline currentTime={currentTime} duration={26.823264} /> : <PCTimeline currentTime={currentTime} duration={26.823264} />} */}
         </div>
     );
 };

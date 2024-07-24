@@ -46,10 +46,16 @@ const MarketPlaceWidget = () => {
         <>
             <MarketPlaceScrollBar mockData={mockData} />
             <div className='flex flex-col items-center justify-center my-6 '>
-                <a href='#' className='w-[163.16px] h-[40px] md:w-[329px] md:h-[86px] inline-flex items-center px-4 md:px-9 md:text-[24px] text-[12px] font-semibold text-primary bg-landing rounded-full border border-primary font-sans'>
-                    Go to marketplace
-                    <ArrowForwardIcon className='ml-2 md:ml-3 md:text-[24px] text-[15px]' />
-                </a>
+                <div className='w-[163.16px] h-[40px] md:w-[329px] md:h-[86px] bg-greenGradient p-[1.03px] md:p-[2px] rounded-full'>
+                    <a href='#' className={`w-[161.1px] h-[37.94px] md:w-[325px] md:h-[82px] 
+                    inline-flex items-center 
+                    px-4 md:px-9 
+                    md:text-[24px] text-[12px] font-semibold text-primary font-sans
+                    bg-landingBack rounded-full `}>
+                        Go to marketplace
+                        <ArrowForwardIcon className='ml-2 md:ml-3 md:text-[24px] text-[15px]' />
+                    </a>
+                </div>
             </div>
         </>
     )

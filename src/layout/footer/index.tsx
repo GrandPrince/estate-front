@@ -25,13 +25,13 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className='flex justify-between items-center mb-2 hidden md:block'>
-                <div className=' text-[14px]'>© 2024 — Copyright</div>
+            <div className='hidden md:flex justify-between items-center mb-8'>
+                <div className='text-[14px]'>© 2024 — Copyright</div>
                 <Image src='/imgs/oasix_logo.png' alt='Oasix Logo' width={101} height={38} className="" />
             </div>
             <div className="md:hidden float-right mb-2">
                 <Image src='/imgs/oasix_logo.png' alt='Oasix Logo' width={59} height={22} className="w-[59.19px] h-[22.27px] ml-[34.45px]" />
-                <div className='md:hidden  text-[9.53px] mt-2 float-right' >© 2024 — Copyright</div>
+                <div className='  text-[9.53px] mt-2 float-right' >© 2024 — Copyright</div>
             </div>
         </footer>
     )

@@ -4,16 +4,16 @@
 
 @font-face {
     font-family: 'Euclid Galactic';
-    src: url('/fonts/EuclidGalactic-1G.woff') format('woff');
-    font-weight: normal;
+    src: url('/fonts/EuclidGalactic-3G.woff') format('woff');
+    font-weight: lighter;
     font-style: normal;
 }
 
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('/fonts/MontserratRegular.woff') format('woff');
-    font-weight: normal;
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 450;
     font-style: normal;
 }
 
